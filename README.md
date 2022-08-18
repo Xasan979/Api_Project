@@ -1,6 +1,7 @@
 # Api_Project
 
 Как запустить:
+
 Создайте venv и установите требования
   Mac OS
     python3 -m venv env
@@ -14,7 +15,8 @@
 
 
 
-Получение отчетов:
+Получение отчетов: 
+
 Установка allure 
   Mac OS
     brew install allure
@@ -25,11 +27,13 @@
 
 
 Провести тест:
+
 В терминале (Pycharm)
     python -m pytest --alluredir=test_results/ tests/test_google_maps_api.py
 
 
 Сгенерировать отчет:
+
 В командной строке 
    cd (путь к папки с проектом)
    allure serve test_results/
