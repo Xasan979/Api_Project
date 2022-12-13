@@ -12,7 +12,8 @@
         Windows
           py -m venv env
           .\env\Scripts\activate
-          py -m pip install -r requirements
+          py -m pip install -r requirements.txt
+
 
 
 
